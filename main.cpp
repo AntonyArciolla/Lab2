@@ -103,7 +103,22 @@ int main() {
 
 /* Write your function definitions here */
 bool summable(const int *arr, const int& sz, const int num_terms, const int total) {
-
+    int sum = total;
+    if (sum = 0 && sz = 0;) {
+        return true;
+    }
+    if (sizeof(arr) = 0) {
+        return false;
+    }
+    else {
+        sum -= arr[sz];
+        if (sum < 0;) {
+            sum + arr[sz];
+            sz - 1;
+        }
+        sz - 1;
+        return summable(const int* arr, const int& sz, const int num_terms, const int total);
+    }
 }
 int armstrongIter(const int num_terms) {
 
